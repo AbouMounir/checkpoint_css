@@ -1,0 +1,81 @@
+    @font-face{
+        font-family: big_shoulders_display;
+        font-weight: 700;
+        src: url('/fonts/BigShouldersDisplay-VariableFont_wght.ttf') format(truetype);
+    }
+    
+    @font-face{
+        font-family: Legend_Dec;
+        font-weight: 400;
+        src: url('/fonts/LexendDeca-VariableFont_wght.ttf') format(truetype);
+    }
+    .box{
+        width: 200px;
+        height: 400px;
+        padding-left: 40px;
+        padding-top: 50px;
+        padding-right: 40px;
+    }
+    
+    .sedans{
+        background-color:  hsl(31, 77%, 52%) ;
+    }
+    
+    .suv{
+        background-color: hsl(184, 100%, 22%) ;
+    }
+    
+    .luxury{
+        background-color: hsl(179, 100%, 13%);
+    }
+    
+    body{
+        display: inline-flex;
+        margin-right: 250px;
+        margin-left : 250px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        
+    }
+    
+    .bhb{
+        color: hsl(0, 0%, 95%);
+        font-size: 40px; 
+        font-family: big_shoulders_display;   
+    }
+    
+    p{
+        font-family: Legend_Dec ;
+        line-height: 20px;
+        letter-spacing: 1px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 12px;
+    }
+    
+    .learn{
+        background-color: white;
+        border-radius: 25px;
+        width: 90px;
+        height: 30px;
+        position: relative;
+        top: 70px;
+        margin: 5px;
+        padding: 0.2em;
+        
+    }
+    .gr1, .gr2, .or{
+       text-align: center;
+       margin-top: 7px;
+    }
+    
+    .or{
+       color: hsl(31, 77%, 52%);
+    }
+    .gr1{
+        color: hsl(184, 100%, 22%); 
+    }
+    .gr2{
+        color: hsl(179, 179%, 13%);
+    } 
+    
+
